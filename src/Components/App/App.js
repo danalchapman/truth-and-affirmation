@@ -2,10 +2,9 @@
 
 export const App = () => {
   
-
   return (
-    <div className="container mx-auto p-8 m-10 text-center">
-      <h1 className="text-3xl text-white font-bold mb-5">
+    <div className="mx-auto bg-gradient-to-b from-blue-500 to-white h-screen w-screen text-white font-serif italic">
+      <h1 className="text-4xl text-center p-4">
         Take What You Need
       </h1>
     </div>
