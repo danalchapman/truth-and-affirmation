@@ -2,10 +2,9 @@
 
 export const Form = () => {
     return (
-        <div>
-            <form>
-                
-            </form>
-        </div>
+        <form className='bg-blue-300'>
+            <button>Truth</button>
+            <button>Affirmation</button>
+        </form>
     )
 }

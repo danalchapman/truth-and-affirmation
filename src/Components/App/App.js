@@ -1,4 +1,4 @@
-
+import { Form } from "../Form/Form";
 
 export const App = () => {
   
@@ -7,6 +7,7 @@ export const App = () => {
       <h1 className="text-4xl text-center p-4">
         Take What You Need
       </h1>
+      <Form />
     </div>
   );
 }
