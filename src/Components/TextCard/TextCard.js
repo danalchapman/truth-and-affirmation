@@ -1,7 +1,7 @@
 export const TextCard = ({ id, text }) => {
     return (
         <article>
-            <p>
+            <p className='text-blue-400'>
                 { text }
             </p>
         </article>
