@@ -5,7 +5,7 @@ import { TextCard } from "../TextCard/TextCard"
 import { affirmData } from '../../Data/affirmData'
 import { truthData } from '../../Data/truthData'
 
-export const TextDisplay = () => {
+export const TextDisplay = ({ saveStatus, addSave, deleteSave }) => {
 
     const [displayText, setDisplayText] = useState([])
 
@@ -32,6 +32,9 @@ export const TextDisplay = () => {
                     key={text.id}
                     id={text.id}
                     text={text.text}
+                    saveStatus={saveStatus}
+                    addSave={addSave}
+                    deleteSave={deleteSave}
                 />
             )
         })
