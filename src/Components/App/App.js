@@ -1,6 +1,9 @@
-import { useState } from "react"
+// import { useState } from "react"
 import { Nav } from '../Nav/Nav'
 import { TextDisplay } from '../TextDisplay/TextDisplay'
+import { Favorites } from '../Favorites/Favorites'
+
+import { Routes, Route } from 'react-router-dom'
 
 export const App = () => {
   
@@ -11,7 +14,10 @@ export const App = () => {
       </h1>
       <div className='container flex justify-between'>
         <Nav />
-        <TextDisplay />
+        <Routes>
+          <Route path='/' element={<TextDisplay />} />
+          <Route path='/saved' element={<Favorites />} />
+        </Routes>
       </div>
     </div>
   );
