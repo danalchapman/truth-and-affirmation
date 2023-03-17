@@ -55,10 +55,12 @@ export const TextDisplay = ({ saveStatus, addSave, deleteSave }) => {
             <div className=''> 
                 { displayText.length ? displayChosenText() : <p className='text-blue-400'>What do you need to hear today?</p>}
             </div>
+            { displayText.length ? 
             <button 
                 className='bg-white text-blue-400 underline text-sm'
                 onClick={() => clearTexts()}
-            >Clear Text</button>
+            >Clear Text</button> : 
+            null }
         </main>
     )
 }
