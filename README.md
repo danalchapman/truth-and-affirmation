@@ -5,7 +5,7 @@
 
 <h3 align="center">A Self-Care Saying Application</h3>
 
-<h4 align="center"><a href=""><strong>Take What You Need: TBD</strong></a> | <a href="https://github.com/danalchapman/truth-and-affirmation"><strong>Repository »</strong></a></h4>
+<h4 align="center"><a href="https://truth-and-affirmation.vercel.app/"><strong>Take What You Need</strong></a> | <a href="https://github.com/danalchapman/truth-and-affirmation"><strong>Repository »</strong></a></h4>
 
 <p></p>
 
